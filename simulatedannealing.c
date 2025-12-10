@@ -9,7 +9,8 @@ int accept(double deltaE, double T);
 
 double cost(double x)//lets take the cost function as x^2+3*sin(5*x);
 {
-    return x*x+3*sin(5*x);
+    double y=x*x;
+    return (y*y-10y+9x);
 }
 
 double randbw0_1()

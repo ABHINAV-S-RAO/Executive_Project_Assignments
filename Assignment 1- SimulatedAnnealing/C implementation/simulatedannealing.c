@@ -7,7 +7,7 @@ double randbw0_1();
 double random_neighbour(double x);
 int accept(double deltaE, double T);
 
-double cost(double x)//lets take the cost function as x^2+3*sin(5*x);
+double cost(double x)//lets take the cost function as x^4-10x^2=9x;
 {
     double y=x*x;
     return (y*y-10*y+9*x);
